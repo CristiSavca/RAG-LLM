@@ -3,7 +3,6 @@ llama-hub==0.0.73
 huggingface-hub
 langchain~=0.1.1
 transformers~=4.36.2
-sentence_transformers
 InstructorEmbedding
 pypdf
 matplotlib~=3.8.2
