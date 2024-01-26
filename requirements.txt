@@ -1,0 +1,20 @@
+# # Base ctransformers with no GPU acceleration
+# pip install ctransformers
+# # Or with CUDA GPU acceleration
+ctransformers[cuda]~=0.2.27
+# # Or with AMD ROCm GPU acceleration (Linux only)
+# CT_HIPBLAS=1 pip install ctransformers --no-binary ctransformers
+# # Or with Metal GPU acceleration for macOS systems only
+# CT_METAL=1 pip install ctransformers --no-binary ctransformers
+llama-index==0.9.34
+llama-hub==0.0.73
+huggingface-hub
+langchain~=0.1.1
+transformers~=4.36.2
+sentence_transformers
+InstructorEmbedding
+pypdf
+accelerate
+matplotlib~=3.8.2
+langchain-community
+torch~=2.1.2
