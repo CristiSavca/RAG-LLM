@@ -1,10 +1,10 @@
-llama-index==0.9.34
-llama-hub==0.0.73
+llama-index
+llama-hub
 huggingface-hub
-langchain~=0.1.1
-transformers~=4.36.2
+langchain
+transformers
 InstructorEmbedding
 pypdf
-matplotlib~=3.8.2
+matplotlib
 langchain-community
-torch~=2.1.2
+torch
